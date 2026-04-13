@@ -265,7 +265,17 @@ Profesor profesor = new Profesor(
 
 controlador.agregarProfesor(profesor);
 
-JOptionPane.showMessageDialog(this, "Profesor registrado correctamente");      // TODO add your handling code here:
+JOptionPane.showMessageDialog(this, "Profesor registrado correctamente");  
+txtNombre.setText("");
+txtDireccion.setText("");
+txtTelefono.setText("");
+txtFechaNacimiento.setText("");
+txtCedula.setText("");
+txtArea.setText("");
+txtSalarioHora.setText("");
+txtHorasMes.setText("");
+
+txtNombre.requestFocus();// TODO add your handling code here:
     }//GEN-LAST:event_btnGuardarEstudianteActionPerformed
 
     private void btnCerrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCerrarActionPerformed
