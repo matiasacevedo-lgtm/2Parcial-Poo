@@ -127,7 +127,7 @@ private ControladorColegio controlador;
 
     private void btnAgregarEstudianteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarEstudianteActionPerformed
 VistaAgregarEstudiante vista = new VistaAgregarEstudiante(controlador);
-vista.setVisible(true);        // TODO add your handling code here:
+vista.setVisible(true);         // TODO add your handling code here:
     }//GEN-LAST:event_btnAgregarEstudianteActionPerformed
 
     private void btnAgregarProfesorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnAgregarProfesorActionPerformed
@@ -137,7 +137,7 @@ vista.setVisible(true);        // TODO add your handling code here:
 
     private void btnBuscarEstudianteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarEstudianteActionPerformed
 VistaBuscarEstudiante vista = new VistaBuscarEstudiante(controlador);
-vista.setVisible(true);        // TODO add your handling code here:
+vista.setVisible(true);       // TODO add your handling code here:
     }//GEN-LAST:event_btnBuscarEstudianteActionPerformed
 
     private void btnBuscarProfesorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarProfesorActionPerformed
