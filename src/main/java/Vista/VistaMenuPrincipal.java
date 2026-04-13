@@ -30,8 +30,6 @@ private ControladorColegio controlador;
         jLabel1 = new javax.swing.JLabel();
         btnAgregarEstudiante = new javax.swing.JButton();
         btnAgregarProfesor = new javax.swing.JButton();
-        btnBuscarEstudiante = new javax.swing.JButton();
-        btnBuscarProfesor = new javax.swing.JButton();
         btnListarEstudiantes = new javax.swing.JButton();
         btnListarProfesores = new javax.swing.JButton();
 
@@ -50,20 +48,6 @@ private ControladorColegio controlador;
         btnAgregarProfesor.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnAgregarProfesorActionPerformed(evt);
-            }
-        });
-
-        btnBuscarEstudiante.setText("Buscar Estudiante");
-        btnBuscarEstudiante.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBuscarEstudianteActionPerformed(evt);
-            }
-        });
-
-        btnBuscarProfesor.setText("Buscar Profesor");
-        btnBuscarProfesor.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                btnBuscarProfesorActionPerformed(evt);
             }
         });
 
@@ -93,12 +77,10 @@ private ControladorColegio controlador;
                 .addGap(50, 50, 50)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnAgregarEstudiante, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnBuscarEstudiante, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnListarEstudiantes, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 51, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                     .addComponent(btnAgregarProfesor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(btnBuscarProfesor, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(btnListarProfesores, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addGap(50, 50, 50))
         );
@@ -107,19 +89,15 @@ private ControladorColegio controlador;
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jLabel1)
-                .addGap(18, 18, 18)
+                .addGap(35, 35, 35)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnAgregarEstudiante)
                     .addComponent(btnAgregarProfesor))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnBuscarEstudiante)
-                    .addComponent(btnBuscarProfesor))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, Short.MAX_VALUE)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnListarEstudiantes)
                     .addComponent(btnListarProfesores))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(34, 34, 34))
         );
 
         pack();
@@ -134,16 +112,6 @@ vista.setVisible(true);         // TODO add your handling code here:
 VistaAgregarProfesor vista = new VistaAgregarProfesor(controlador);
 vista.setVisible(true);        // TODO add your handling code here:
     }//GEN-LAST:event_btnAgregarProfesorActionPerformed
-
-    private void btnBuscarEstudianteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarEstudianteActionPerformed
-VistaBuscarEstudiante vista = new VistaBuscarEstudiante(controlador);
-vista.setVisible(true);       // TODO add your handling code here:
-    }//GEN-LAST:event_btnBuscarEstudianteActionPerformed
-
-    private void btnBuscarProfesorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBuscarProfesorActionPerformed
-VistaBuscarProfesor vista = new VistaBuscarProfesor(controlador);
-vista.setVisible(true);        // TODO add your handling code here:
-    }//GEN-LAST:event_btnBuscarProfesorActionPerformed
 
     private void btnListarEstudiantesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnListarEstudiantesActionPerformed
 VistaListaEstudiantes vista = new VistaListaEstudiantes(controlador);
@@ -193,8 +161,6 @@ vista.setVisible(true);      // TODO add your handling code here:
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnAgregarEstudiante;
     private javax.swing.JButton btnAgregarProfesor;
-    private javax.swing.JButton btnBuscarEstudiante;
-    private javax.swing.JButton btnBuscarProfesor;
     private javax.swing.JButton btnListarEstudiantes;
     private javax.swing.JButton btnListarProfesores;
     private javax.swing.JLabel jLabel1;

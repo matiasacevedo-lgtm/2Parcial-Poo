@@ -32,13 +32,11 @@
               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="btnAgregarEstudiante" max="32767" attributes="0"/>
-                  <Component id="btnBuscarEstudiante" max="32767" attributes="0"/>
                   <Component id="btnListarEstudiantes" max="32767" attributes="0"/>
               </Group>
               <EmptySpace pref="51" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
                   <Component id="btnAgregarProfesor" max="32767" attributes="0"/>
-                  <Component id="btnBuscarProfesor" max="32767" attributes="0"/>
                   <Component id="btnListarProfesores" max="32767" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
@@ -50,22 +48,17 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnAgregarEstudiante" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnAgregarProfesor" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnBuscarEstudiante" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="btnBuscarProfesor" alignment="3" min="-2" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace pref="58" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="btnListarEstudiantes" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="btnListarProfesores" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -90,22 +83,6 @@
       </Properties>
       <Events>
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnAgregarProfesorActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnBuscarEstudiante">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Buscar Estudiante"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarEstudianteActionPerformed"/>
-      </Events>
-    </Component>
-    <Component class="javax.swing.JButton" name="btnBuscarProfesor">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="Buscar Profesor"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBuscarProfesorActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="btnListarEstudiantes">
